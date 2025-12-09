@@ -17,7 +17,10 @@ dependencies:
     # the parent directory to use the current plugin's version.
     path: ../
   in_app_purchase_android: ^0.4.0
-  in_app_purchase_storekit: ^0.4.0
+  in_app_purchase_storekit: 
+     git:
+      url: https://github.com/yellowclass/in_app_purchase_storekit
+      ref: master
   shared_preferences: ^2.0.0
 
 dev_dependencies:
