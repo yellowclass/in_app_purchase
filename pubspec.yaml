@@ -1,12 +1,12 @@
 name: in_app_purchase
 description: A Flutter plugin for in-app purchases. Exposes APIs for making in-app purchases through the App Store and Google Play.
 repository: https://github.com/yellowclass/in_app_purchase
-version: 3.2.3
+version: 3.3.0
 publish_to: none
 
 environment:
-  sdk: ^3.8.0
-  flutter: ">=3.32.0"
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
 
 flutter:
   plugin:
@@ -21,9 +21,9 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  in_app_purchase_android: ^0.4.0
+  in_app_purchase_android: ^0.5.0
   in_app_purchase_platform_interface: ^1.4.0
-  in_app_purchase_storekit: 
+  in_app_purchase_storekit:
     git:
       url: https://github.com/yellowclass/in_app_purchase_storekit
       ref: master
